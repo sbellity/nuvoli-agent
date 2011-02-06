@@ -1,0 +1,8 @@
+The nuvoli agent:
+
+* Registers a node with a Nuvoli server
+* Reports a node status periodically
+* Checks regularly for configurations to apply to the node, and applies them using `chef-solo` if necessary
+
+
+Heavily inspired by the scout_client gem
