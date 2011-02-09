@@ -89,9 +89,9 @@ module Nuvoli
       end
 
       def initialize(options, args)
-        @server  = options[:server]  || "192.168.1.26:3000"   # "https://api.nuvo.li/"
+        @server  = options[:server]  || "api.nuvo.li"
         @verbose = options[:verbose] || false
-        @level   = options[:level]   || "info"
+        @level   = options[:level]   || "error"
         @args    = args
       end
 

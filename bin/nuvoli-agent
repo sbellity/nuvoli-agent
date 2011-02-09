@@ -1,11 +1,10 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
-$VERBOSE = true # -w
+$VERBOSE = false # -w
 #$KCODE   = "u"  # -Ku
 
 $LOAD_PATH << File.join(File.dirname(__FILE__), *%w[.. lib])
 require "nuvoli/agent"
 
 Nuvoli::Agent::Command.dispatch(ARGV)
-

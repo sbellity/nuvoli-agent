@@ -51,7 +51,7 @@ spec = Gem::Specification.new do |spec|
 
   spec.require_path = "lib"
 
-  spec.add_dependency "excon"
+  spec.add_dependency "rest-client"
   spec.add_dependency "ohai"
   spec.add_dependency "mixlib-config"
 

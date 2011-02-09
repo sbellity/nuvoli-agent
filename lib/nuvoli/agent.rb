@@ -8,9 +8,6 @@ module Nuvoli
     
     class Config
       extend(Mixlib::Config)
-    
-      api_key  ''
-      node_class  ''
     end
     
     Config.from_file CONFIG_FILE if File.exists? CONFIG_FILE
